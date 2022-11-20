@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html> <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Login Page </title>
+<style> 
+Body {
+font-family: Calibri, Helvetica, sans-serif; 
+background-color: #9FE2BF;
+}
+button {
+background-color: #9FE2BF;
+Team ID PNT2022TMID27063
+Date 5 November 2022
+Project Title IoT Based Safety 
+Gadget for Child 
+Safety Monitoring 
+and Notification
+width: 100%; 
+color: black; 
+padding: 15px; 
+margin: 10px 0px; 
+border: none; 
+cursor: pointer;
+}
+form {
+border: 3px solid #f1f1f1;
+}
+input[type=text], input[type=password] { 
+width: 100%;
+margin: 8px 0; 
+padding: 12px 20px; 
+display: inline-block; 
+border: 2px white;
+box-sizing: border-box;
+}
+button:hover {
+opacity: 0.7;
+}
+.cancelbtn {
+width: auto; 
+padding: 10px 18px; 
+margin: 10px 5px;
+}
+.container {
+padding: 25px;
+background-color: #CCCCFF;
+}
+</style> </head>
+<body>
+<center> <h1> Login Form </h1> </center>
+<form>
+<div class="container">
+<label>Device ID/Number: </label>
+<input type="password" placeholder="Enter Password" name="password" required>
+<label>E-Mail : </label>
+<input type="text" placeholder="Enter Username" name="username" required>
+<label>Password : </label>
+<input type="password" placeholder="Enter Password" name="password" required>
+<button type="submit">Login</button>
+<button class="loginBtn loginBtn--facebook">Login with Facebook.</button>
+<button class="loginBtn loginBtn--google">Login with Google.</button>
+<input type="checkbox" checked="checked"> Remember me
+<button type="button" class="cancelbtn"> Cancel</button> 
+Forgot <a href="#"> password? </a>
+</div>
+</form>
+</body>
+</html>
